@@ -109,6 +109,13 @@ h6,
   margin-top: 72px;
 }
 
+@media (max-width: 767px) {
+  #header .text-light.res {
+    font-size: 1.3rem;
+    padding: 9px 0;
+  }
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -310,6 +317,11 @@ h6,
   font-size: 28pxpx;
 }
 
+#hero h3.text-jun {
+  font-style: 2rem;
+  color: var(--main-color);
+}
+
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -498,6 +510,7 @@ section {
   border-radius: 15px;
   text-align: center;
   border-bottom: 3px solid var(--second-color);
+  width: 500px;
 }
 
 .skills .icon-box:hover {
